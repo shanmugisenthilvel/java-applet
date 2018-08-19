@@ -1,0 +1,32 @@
+import java.applet.*;
+
+import java.awt.*;
+
+public class halfrectangle extends Applet
+
+{
+
+public void paint(Graphics g)
+
+{
+
+Color c;
+
+
+c=Color.red;
+
+g.setColor(c);
+
+g.fillRect(100,115,40,35);
+c=Color.black;
+
+g.setColor(c);
+
+g.fillRect(100,150,40,35);
+
+
+
+}
+
+}
+
